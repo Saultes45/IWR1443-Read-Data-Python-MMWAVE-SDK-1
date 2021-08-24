@@ -211,12 +211,12 @@ def readAndParseData14xx(Dataport, configParameters):
                 idX += 2
                 
                 # Initialize the arrays
-                rangeIdx = np.zeros(tlv_numObj,dtype = 'int16')
-                dopplerIdx = np.zeros(tlv_numObj,dtype = 'int16')
-                peakVal = np.zeros(tlv_numObj,dtype = 'int16')
-                x = np.zeros(tlv_numObj,dtype = 'int16')
-                y = np.zeros(tlv_numObj,dtype = 'int16')
-                z = np.zeros(tlv_numObj,dtype = 'int16')
+                rangeIdx    = np.zeros(tlv_numObj,dtype = 'int16')
+                dopplerIdx  = np.zeros(tlv_numObj,dtype = 'int16')
+                peakVal     = np.zeros(tlv_numObj,dtype = 'int16')
+                x           = np.zeros(tlv_numObj,dtype = 'int16')
+                y           = np.zeros(tlv_numObj,dtype = 'int16')
+                z           = np.zeros(tlv_numObj,dtype = 'int16')
                 
                 for objectNum in range(tlv_numObj):
                     
